@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>James' Tent Emporium</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/tentlogo.png">
+</head>
+<body>
+
+    <!-- Markup for navigation bar -->
+    <ul>
+        <li><img src="images/tentlogo.png" alt="Logo" id="logo-nav"></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="store.html" class="dropbtn">Store</a>
+            <div class="dropdown-content">
+                <a href="store.html#carcamp">Car Camping</a>
+                <a href="store.html#backpacking">Backpacking</a>
+                <a href="store.html#luxury">Luxury</a>
+                <a href="store.html#family">Family</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="about.html" class="dropbtn">About</a>
+            <div class="dropdown-content">
+                <a href="about.html#whoweare">Who We Are</a>
+                <a href="about.html#whatwedo">What We Do</a>
+            </div>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown">
+            <a href="php/customerAccount.php" class="dropbtn">Account</a>
+            <div class="dropdown-content">
+                <a href="php/login.php">Login</a>
+                <a href="signup.html">Sign-Up</a>
+            </div>
+        </li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+
+    <!-- Markup for signup form -->
+    <div id="contact">
+        <h1>Sign-Up</h1>
+        <form action="php/signup.php" method="POST">
+            First Name:<br><input type="text" name="fname" required><br>
+            Last Name:<br><input type="text" name="lname" required><br>
+            E-mail:<br><input type="email" name="email" required><br>
+            Phone Number:<br><input type="tel" name="phone" id="phone" required><br>
+            Username:<br><input type="text" name="username" required><br>
+            Password:<br><input type="password" name="password" required><br>
+            <input type="submit">
+        </form>
+    </div>
+
+</body>
+</html>

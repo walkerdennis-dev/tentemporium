@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>James' Tent Emporium</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/tentlogo.png">
+</head>
+<body>
+
+    <!-- Markup for navigation bar -->
+    <ul>
+        <li><img src="images/tentlogo.png" alt="Logo" id="logo-nav"></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="store.html" class="dropbtn">Store</a>
+            <div class="dropdown-content">
+                <a href="store.html#carcamp">Car Camping</a>
+                <a href="store.html#backpacking">Backpacking</a>
+                <a href="store.html#luxury">Luxury</a>
+                <a href="store.html#family">Family</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="about.html" class="dropbtn">About</a>
+            <div class="dropdown-content">
+                <a href="about.html#whoweare">Who We Are</a>
+                <a href="about.html#whatwedo">What We Do</a>
+            </div>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown">
+            <a href="php/customerAccount.php" class="dropbtn">Account</a>
+            <div class="dropdown-content">
+                <a href="php/login.php">Login</a>
+                <a href="signup.html">Sign-Up</a>
+            </div>
+        </li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+
+    <!-- Markup for background image -->
+    <img src="images/homebg.png" alt="Tent in grass" id="background">
+
+    <!-- Markup for best selling categories section -->
+    <div id="bestsellers">
+        <h1>Best Selling Categories</h1>
+        <div id="table">
+            <div id="bestsell-content" class="odd">
+                <h2>Family</h2>
+                <img src="images/familydemo.jpeg" alt="Family Tent" id="demo-img">
+                <p>These tents are for camping with multiple people. When families go camping they need space for all the people and all the gear that they bring. 
+                These tents are usually capable of holding four or more people and their gear.</p>
+                <a href="store.html#family" id="learn-more">Learn More</a>
+                <br><br>
+            </div>
+            <div id="bestsell-content" class="even">
+                <h2>Backpacking</h2>
+                <img src="images/backpackingdemo.jpeg" alt="Backpacking Tent" id="demo-img">
+                <p>When backpacking you want to carry a tent that is lightweight and is able to pack up tightly. Backpacking tents are often room enough for one person and their gear. 
+                Backpacking tents are also designed for ease of use and can be quickly set-up and broken down.</p>
+                <a href="store.html#backpacking" id="learn-more">Learn More</a>
+                <br><br>
+            </div>
+            <div id="bestsell-content" class="odd">
+                <h2>Luxury</h2>
+                <img src="images/luxurydemo.jpeg" alt="Luxury Tent" id="demo-img">
+                <p>Luxury tents are often fitted with different kinds of amenities. These could include space for a wood burning stove, an extended rainfly to make a porch, or seperate rooms. 
+                Luxury tents are often packed in a big container and may require two people for carrying components.</p>
+                <a href="store.html#luxury" id="learn-more">Learn More</a>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
